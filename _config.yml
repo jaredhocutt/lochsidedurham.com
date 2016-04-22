@@ -1,0 +1,10 @@
+# Site settings
+title: Lochside Durham
+email: lochsidehoa@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  A mixed townhome and single family community located in Durham, NC.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://lochsidedurham.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown

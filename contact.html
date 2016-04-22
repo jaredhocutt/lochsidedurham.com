@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<article id="main">
+	<header class="special container">
+		<span class="icon fa-envelope"></span>
+
+		<h2>Get In Touch</h2>
+	</header>
+
+	<section class="wrapper style4 special container small">
+		<div class="content">
+			<form method="post" action="https://getsimpleform.com/messages?form_api_token=42dbf3376d7717bbf704b8cfa62c7197">
+				<input type="hidden" name="redirect_to" value="{{ site.url }}/contact_success.html" />
+
+				<div class="row half collapse-at-2">
+					<div class="6u">
+						<input type="text" name="name" placeholder="Name" />
+					</div>
+					<div class="6u">
+						<input type="text" name="email" placeholder="Email" />
+					</div>
+				</div>
+				<div class="row half">
+					<div class="12u">
+						<input type="text" name="subject" placeholder="Subject" />
+					</div>
+				</div>
+				<div class="row half">
+					<div class="12u">
+						<textarea name="message" placeholder="Message" rows="7"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="12u">
+						<ul class="buttons">
+							<li><input type="submit" class="special" value="Send Message" /></li>
+						</ul>
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+</article>
